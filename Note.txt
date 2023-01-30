@@ -1,0 +1,23 @@
+
+1. install docker (Docker Desktop)
+	https://www.baeldung.com/ops/kafka-docker-setup
+2. install kafka ui tool 
+	https://kafkatool.com/download.html
+3. create file docker-compase.yml
+
+4. run conmand below
+
+docker-compose -f docker-compose.yml up -d
+docker images
+docker ps
+
+
+
+docker exec -it bbee05e43488 /bin/sh
+cd opt
+cd bitnami
+cd kafka
+cd bin
+kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic dcb
+
+kafka-topics.sh --list --bootstrap-server localhost:9092
