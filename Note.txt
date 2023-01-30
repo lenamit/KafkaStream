@@ -1,5 +1,6 @@
 
 1. install docker (Docker Desktop)
+	https://docs.docker.com/desktop/install/windows-install/
 	https://www.baeldung.com/ops/kafka-docker-setup
 2. install kafka ui tool 
 	https://kafkatool.com/download.html
